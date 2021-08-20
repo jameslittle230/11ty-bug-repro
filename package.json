@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "scripts": {
+    "serve": "npx @11ty/eleventy --serve",
+    "brokenserve": "npx @11ty/eleventy --config=config.js --serve"
+  }
+}
